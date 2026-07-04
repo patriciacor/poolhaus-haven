@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { MessageCircle, Check, Home, Waves, Zap, MapPin, Clock, Shield, Phone } from "lucide-react";
+import { MessageCircle, Check, Home, Waves, Zap, MapPin, Clock, Shield, Phone, Instagram } from "lucide-react";
 
 import logo from "@/assets/logo.jpg.asset.json";
 import poolHero from "@/assets/pool-hero.jpg.asset.json";
@@ -324,9 +324,14 @@ function Landing() {
             </div>
             <span className="font-bold tracking-tight">POOLHAUS</span>
           </div>
-          <a href={`tel:+598${WHATSAPP_NUMBER.slice(3)}`} className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary">
-            <Phone className="h-4 w-4" /> {WHATSAPP_DISPLAY}
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-4">
+            <a href={waLink("Hola PoolHaus, quiero información.")} className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary">
+              <Phone className="h-4 w-4" /> +598 92 138 522
+            </a>
+            <a href="https://instagram.com/poolhaus.uy" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary">
+              <Instagram className="h-4 w-4" /> @poolhaus.uy
+            </a>
+          </div>
           <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} PoolHaus · Uruguay</p>
         </div>
       </footer>
