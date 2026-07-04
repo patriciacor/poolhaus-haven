@@ -79,10 +79,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "PoolHaus | Piscinas y Módulos 6x3 listos para instalar en Uruguay" },
       { name: "description", content: "Piscinas modulares y módulos habitacionales 6x3 con instalación completa en Uruguay. Cotizá por WhatsApp: 092 138 522." },
-      { property: "og:title", content: "PoolHaus | Piscinas y Módulos 6x3 en Uruguay" },
-      { property: "og:description", content: "Instalación premium, rápida y sin complicaciones. Cotizá ahora por WhatsApp." },
+      { property: "og:title", content: "PoolHaus | Piscinas y Módulos 6x3 listos para instalar en Uruguay" },
+      { property: "og:description", content: "Piscinas modulares y módulos habitacionales 6x3 con instalación completa en Uruguay. Cotizá por WhatsApp: 092 138 522." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "PoolHaus | Piscinas y Módulos 6x3 listos para instalar en Uruguay" },
+      { name: "twitter:description", content: "Piscinas modulares y módulos habitacionales 6x3 con instalación completa en Uruguay. Cotizá por WhatsApp: 092 138 522." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2310bfc9-ea07-4dcf-9c3c-c6022a7948b0/id-preview-511a1d42--214f695e-b907-4fde-b6f4-162f5500cecf.lovable.app-1783204262752.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/2310bfc9-ea07-4dcf-9c3c-c6022a7948b0/id-preview-511a1d42--214f695e-b907-4fde-b6f4-162f5500cecf.lovable.app-1783204262752.png" },
     ],
     links: [
       {
