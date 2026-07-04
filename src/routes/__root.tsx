@@ -77,14 +77,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "PoolHaus | Piscinas y Módulos 6x3 listos para instalar en Uruguay" },
+      { name: "description", content: "Piscinas modulares y módulos habitacionales 6x3 con instalación completa en Uruguay. Cotizá por WhatsApp: 092 138 522." },
+      { property: "og:title", content: "PoolHaus | Piscinas y Módulos 6x3 en Uruguay" },
+      { property: "og:description", content: "Instalación premium, rápida y sin complicaciones. Cotizá ahora por WhatsApp." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
